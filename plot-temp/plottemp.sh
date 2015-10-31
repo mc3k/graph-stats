@@ -1,7 +1,7 @@
 
 #!/bin/bash
 
-python3 temp.py 
+python3 tempdata.py 
 
 echo "
 set terminal png size 900, 300
