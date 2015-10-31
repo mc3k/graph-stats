@@ -14,5 +14,5 @@ today = datetime.datetime.today()
 s = today.strftime(format)
 output = s+' '+fetchtemp()+'\n'
 
-with open('/home/pi/bin/plot-temp/temp.dat', 'a') as f:
+with open('/home/pi/bin/plot-temp/tempdata.dat', 'a') as f:
 	f.write(output)
